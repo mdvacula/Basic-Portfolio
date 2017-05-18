@@ -1,0 +1,142 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+body{
+	margin: 0 0 100px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background: lightgrey;
+}
+h1{
+	font-size: 46px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h2{
+	font-size: 32px;
+	font-family: serif;
+	border-bottom: 5px solid grey;	
+	margin-bottom: 5px;
+	color: teal;
+
+}
+
+header{
+	position: relative;
+	padding: 20px;
+	background: white;
+	vertical-align: middle;
+}
+
+nav{
+	position: absolute;
+	top: 50%;
+	margin: 0;
+	position: absolute;
+	right: 0px;
+}
+
+nav a{
+	border: 2px teal solid;
+	color: teal;
+	padding: 25px;
+	text-decoration: none;
+	vertical-align: center;
+
+}
+
+nav a:hover{
+	background: teal;
+	color: white;
+}
+
+nav a:active{
+	border-radius: 20px;
+}
+
+aside{
+	background: white;
+}
+
+section{
+	width: 45%;
+	background: white;
+	margin-left: 10%;
+	padding: 20px;
+
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	border-top: 5px solid teal;
+	background: gray;
+	height: 50px;
+	text-align: center;
+	width: 100%;
+}
+
+form{
+	padding:20px;
+}
+
+section img{
+	float: left;
+	height: 350px; 
+	width: 250px;
+	padding: 20px;
+}
+
+button{
+	background: teal;
+	color: white;
+}
+.container{
+	margin: 30px;
+	display: block;
+	position: relative;
+}
+
+.connect{
+	position: absolute;
+	padding: 20px;
+	right: 10px;
+	top: 0px;
+	height: 150px;
+	width: 270px;	
+}
+
+.fItem{
+	margin: 15px;
+	width: 75%;
+}
+
+.iconDiv{
+	padding: 25px;
+}
+.iconDiv img{
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+	vertical-align: center;
+}
+
+.pCollection img{
+	position: relative;
+	height: 200px;
+	width: 300px;
+}
+
+.pItem {
+	height: 200px;
+	width: 300px;
+	float: left;
+	padding: 20px;
+}
+
+.pItem p{
+	position: absolute;
+	text-align: center;
+	bottom: 10px;
+	left: 150px;
+}
