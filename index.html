@@ -10,24 +10,24 @@
 </head>
 <body>
 	
-	<header>
-		
-		<h1>Matthew Vacula</h1>
+	<header id="masthead">
+		<div class="container">
+		<a href="index.html" id="logo">Matthew Vacula</a>
 		
 		<nav>
 			<a href="index.html">About Me</a>
 			<a href="portfolio.html">Portfolio</a>
 			<a href="contact.html">Contact</a>
 		</nav>
-	
+		</div>
 	</header>
 		
-		<div class="container">
-			<section>
+		<div id="main-container" class="container">
+			<section class="main-section">
 			
-				<h2>About Me</h2>
+				<h1>About Me</h1>
 			
-				<img src="assets/images/headshot.jpg" height="350px" width="250px">
+				<img src="assets/images/headshot.jpg" class="auth-image" alt="Matthew Vacula">
 			
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -58,15 +58,16 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</section>
 		
-			<aside class="connect">
-				<h2>Connect with Me</h2>
-				<div class="iconDiv">
-					<a href="https://www.github.com/mdvac" target="_blank"><img src="assets/images/github.svg"></a>
+			<section class="sidebar">
+				<div class="connect">
+					<h2>Connect with Me</h2>
+
+					<a href="https://www.github.com/mdvac" target="_blank"><img src="assets/images/github.svg" class="social"></a>
 					
 					<a href="https://www.linkedin.com/in/mdvacula/">
-					<img src="assets/images/linkedin.svg"></a>
+					<img src="assets/images/linkedin.svg" class="social"></a>
 					
-					<a href="http://stackoverflow.com/users/8029045/matthew-vacula"><img src="assets/images/stackoverflow.svg"></a>
+					<a href="http://stackoverflow.com/users/8029045/matthew-vacula"><img src="assets/images/stackoverflow.svg" class="social"></a>
 
 				</div>
 			</aside>
@@ -74,7 +75,8 @@
 		</div>
 	
 	<footer>
-		<p>Copyright</p>
+		<div class="container"
+		<p>Copyright &copy; 2017 Matthew Vacula</p>
 	</footer>
 
 </body>

@@ -1,61 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Contact</title>
-
-	
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-
-</head>
-<body>
-	<header>
-		<h1>Matthew Vacula</h1>
-		<nav>
-			<a href="index.html">About Me</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
-		</nav>
-	</header>
-
-
-		<div class="container">
-			<section>
-			
-				<h2>Contact</h2>
-			
-				<form>
-					Name:<br>
-					<input class="fItem" type="text" name="name" placeholder="John Smith">
-					<br>
-					Email:<br>
-					<input class="fItem" type="email" name="email" placeholder="email@email.com">
-					<br>
-					Message:<br>
-					<textarea class="fItem" rows="10" cols="20"></textarea><br>
-					<button>Submit</button>
-
+	<head>
+		<meta charset="utf-8">
+		<title>Contact</title>
+		
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<header id="masthead">
+			<div class="container">
+				<a href="index.html" id="logo">Matthew Vacula</a>
+				
+				<nav>
+					<a href="index.html">About Me</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+			</div>
+		</header>
+		<div id="main-container" class="container">
+			<section class="main-section">
+				
+				<h1>Contact</h1>
+				
+				<form id="contact-form">
+					<ul>
+						<li>
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+						</li>
+						<li>
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+						</li>
+						<li>
+							<label for="message">Message</label>
+							<textarea id="message" name="message" required="required"></textarea>
+						</li>
+					</ul>
+					<input type="submit">
 				</form>
 			</section>
-		
-			<aside class="connect">
-				<h2>Connect with Me</h2>
-				<div class="iconDiv">
-					<a href="https://www.github.com/mdvac" target="_blank"><img src="assets/images/github.svg"></a>
+			
+			<section class="sidebar">
+				<div class="connect">
+					<h2>Connect with Me</h2>
+					<a href="https://www.github.com/mdvac" target="_blank"><img src="assets/images/github.svg" class="social"></a>
 					
 					<a href="https://www.linkedin.com/in/mdvacula/">
-					<img src="assets/images/linkedin.svg"></a>
+					<img src="assets/images/linkedin.svg" class="social"></a>
 					
-					<a href="http://stackoverflow.com/users/8029045/matthew-vacula"><img src="assets/images/stackoverflow.svg"></a>
-
+					<a href="http://stackoverflow.com/users/8029045/matthew-vacula"><img src="assets/images/stackoverflow.svg" class="social"></a>
 				</div>
 			</aside>
-	
+			
 		</div>
-	
-	<footer>
-		<p>Copyright</p>
-	</footer>
-</body>
-</html>
+		
+		<footer>
+			<div class="container"
+				<p>Copyright &copy; 2017 Matthew Vacula</p>
+			</footer>
+		</body>
+	</html>
